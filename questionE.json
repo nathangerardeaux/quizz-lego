@@ -1,0 +1,160 @@
+{
+  "quizz": {
+    "easy": [
+      {
+        "question": "Comment s'appelle le ninja rouge dans LEGO Ninjago ?",
+        "options": ["Jay", "Kai", "Cole", "Zane"],
+        "correctAnswer": "Kai"
+      },
+      {
+        "question": "Quel super-héros LEGO porte un costume noir avec une chauve-souris ?",
+        "options": ["Superman", "Flash", "Batman", "Iron Man"],
+        "correctAnswer": "Batman"
+      },
+      {
+        "question": "Quel est le pouvoir principal de Zane dans Ninjago ?",
+        "options": ["Feu", "Glace", "Électricité", "Terre"],
+        "correctAnswer": "Glace"
+      },
+      {
+        "question": "Dans LEGO Ninjago, quel personnage est le maître du tonnerre ?",
+        "options": ["Kai", "Zane", "Jay", "Lloyd"],
+        "correctAnswer": "Jay"
+      },
+      {
+        "question": "Quel personnage LEGO est le chef des Avengers ?",
+        "options": ["Hulk", "Thor", "Iron Man", "Captain America"],
+        "correctAnswer": "Captain America"
+      },
+      {
+        "question": "Quel est le nom du ninja vert dans Ninjago ?",
+        "options": ["Cole", "Zane", "Lloyd", "Jay"],
+        "correctAnswer": "Lloyd"
+      },
+      {
+        "question": "Qui est la sœur du ninja Kai dans Ninjago ?",
+        "options": ["Nya", "Pixal", "Harumi", "Ella"],
+        "correctAnswer": "Nya"
+      },
+      {
+        "question": "Quel animal est souvent utilisé comme monture par les ninjas ?",
+        "options": ["Dragon", "Tigre", "Serpent", "Chien"],
+        "correctAnswer": "Dragon"
+      },
+      {
+        "question": "Quel LEGO est un maître constructeur dans « La Grande Aventure LEGO » ?",
+        "options": ["Emmet", "Kai", "Batman", "Zane"],
+        "correctAnswer": "Emmet"
+      },
+      {
+        "question": "Comment s’appelle le robot géant des ninjas dans Ninjago ?",
+        "options": ["Ultra Mech", "Titan Bot", "Mecha Dragon", "Mega Walker"],
+        "correctAnswer": "Ultra Mech"
+      }
+    ],
+    "normal": [
+      {
+        "question": "Quel est le vrai nom du ninja vert, Lloyd ?",
+        "options": ["Lloyd Garmadon", "Lloyd Montgomery", "Lloyd Smith", "Lloyd Wu"],
+        "correctAnswer": "Lloyd Garmadon"
+      },
+      {
+        "question": "Dans LEGO Batman, qui est la partenaire de Batman ?",
+        "options": ["Batgirl", "Wonder Woman", "Supergirl", "Harley Quinn"],
+        "correctAnswer": "Batgirl"
+      },
+      {
+        "question": "Quel est le nom du père de Lloyd dans Ninjago ?",
+        "options": ["Wu", "Garmadon", "Ray", "Kruncha"],
+        "correctAnswer": "Garmadon"
+      },
+      {
+        "question": "Dans La Grande Aventure LEGO, comment s'appelle la femme rebelle qui aide Emmet ?",
+        "options": ["Wildstyle", "Pixal", "Lucy", "Nya"],
+        "correctAnswer": "Wildstyle"
+      },
+      {
+        "question": "Dans Ninjago, que dirige Sensei Wu ?",
+        "options": ["Les serpents", "L’armée de pierre", "Les ninjas", "Les chasseurs de dragons"],
+        "correctAnswer": "Les ninjas"
+      },
+      {
+        "question": "Quel est le nom du royaume où vivent les ninjas de Ninjago ?",
+        "options": ["Garmadia", "Ninjatown", "Ninjago", "Zanaria"],
+        "correctAnswer": "Ninjago"
+      },
+      {
+        "question": "Quel super-héros LEGO utilise un marteau magique ?",
+        "options": ["Captain America", "Hulk", "Thor", "Batman"],
+        "correctAnswer": "Thor"
+      },
+      {
+        "question": "Quel est le métier d'Emmet au début de La Grande Aventure LEGO ?",
+        "options": ["Policier", "Constructeur", "Chauffeur", "Ninja"],
+        "correctAnswer": "Constructeur"
+      },
+      {
+        "question": "Qui est l’ennemi principal dans le premier film LEGO Ninjago ?",
+        "options": ["Garmadon", "Morro", "Overlord", "Ronin"],
+        "correctAnswer": "Garmadon"
+      },
+      {
+        "question": "Quel ninja est spécialisé dans la terre ?",
+        "options": ["Kai", "Jay", "Cole", "Zane"],
+        "correctAnswer": "Cole"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Quel est le nom complet de Batman dans les films LEGO ?",
+        "options": ["Bruce Wayne", "Clark Kent", "Jason Todd", "Terry McGinnis"],
+        "correctAnswer": "Bruce Wayne"
+      },
+      {
+        "question": "Dans LEGO Ninjago, quelle saison introduit les chasseurs de dragons ?",
+        "options": ["Saison 8", "Saison 9", "Saison 7", "Saison 10"],
+        "correctAnswer": "Saison 9"
+      },
+      {
+        "question": "Quel est le nom de l’intelligence artificielle qui aide Zane ?",
+        "options": ["Pixel", "Pixal", "Zenix", "Neo"],
+        "correctAnswer": "Pixal"
+      },
+      {
+        "question": "Quel méchant utilise le bâton de la terre dans Ninjago ?",
+        "options": ["Pythor", "Skales", "Morro", "Cole corrompu"],
+        "correctAnswer": "Cole corrompu"
+      },
+      {
+        "question": "Dans 'La Grande Aventure LEGO 2', qui est le principal antagoniste ?",
+        "options": ["Rex Dangervest", "Lord Business", "Le Général Chaos", "Alien Queen"],
+        "correctAnswer": "Rex Dangervest"
+      },
+      {
+        "question": "Quel est le nom du maître du vent dans Ninjago ?",
+        "options": ["Fugidove", "Morro", "Karlof", "Skylor"],
+        "correctAnswer": "Morro"
+      },
+      {
+        "question": "Quel est le nom de la première armée que les ninjas affrontent dans la série ?",
+        "options": ["Les Serpents", "Les Maîtres du Temps", "L’Armée de Pierre", "Les Fantômes"],
+        "correctAnswer": "Les Serpents"
+      },
+      {
+        "question": "Quel pouvoir a Skylor dans Ninjago ?",
+        "options": ["Feu", "Télépathie", "Copie de pouvoirs", "Temps"],
+        "correctAnswer": "Copie de pouvoirs"
+      },
+      {
+        "question": "Quel est le nom du frère de Sensei Wu ?",
+        "options": ["Garmadon", "Lloyd", "Ray", "Master Chen"],
+        "correctAnswer": "Garmadon"
+      },
+      {
+        "question": "Quel est le nom du robot samouraï contrôlé par Nya ?",
+        "options": ["Samuraï X", "NyaBot", "Mecha Nya", "X-Force"],
+        "correctAnswer": "Samuraï X"
+      }
+    ]
+  }
+}

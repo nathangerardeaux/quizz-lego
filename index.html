@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Quiz Lego</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="script/script.js"></script>
 </head>
 <body>
     <div class="main-layout">
+        <!-- Image gauche -->
         <div class="image-section left">
             <img src="img/lego batman.webp" alt="Lego gauche" />
         </div>
+
+        <!-- Conteneur du quiz -->
         <div class="quiz-container">
             <h1>Bienvenue au Quiz sur les Legos!</h1>
-            <div class="question-section">
-                <h2 id="question">Question apparaîtra ici</h2>
-            </div>
-            <div class="answer-section">
-                <button class="answer-button">Réponse 1</button>
-                <button class="answer-button">Réponse 2</button>
-                <button class="answer-button">Réponse 3</button>
-                <button class="answer-button">Réponse 4</button>
-            </div>
-            <button id="next-button" class="next-button">Suivant</button>
+            
+            <!-- Zone pour afficher dynamiquement toutes les questions -->
+            <div id="quiz-list"></div>
         </div>
+
+        <!-- Image droite -->
         <div class="image-section">
             <img src="img/meme.jpg" alt="Lego droite" />
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
