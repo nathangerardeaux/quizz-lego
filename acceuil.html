@@ -5,80 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choix personnages</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script defer src="script/scriptAcceuil.js"></script>
 </head>
 <body>
     <h1>Choisissez un ninja</h1>
     <div class="images-container">
-        <img src="img/cole.webp" alt="Image 1" data-id="1">
-        <img src="img/Jay.webp" alt="Image 2" data-id="2">
-        <img src="img/kai.webp" alt="Image 3" data-id="3">
-        <img src="img/Zane.webp" alt="Image 4" data-id="4">
+        <img src="img/cole.png" alt="Image 1" data-id="1">
+        <img src="img/Jay.png" alt="Image 2" data-id="2" >
+        <img src="img/kai.png" alt="Image 3" data-id="3" >
+        <img src="img/Zane.png" alt="Image 4" data-id="4" >
     </div>
     <div id="message"></div>
     <button id="goToQuiz" style="display:none; margin-top:20px;">Aller au quiz</button>
     <script>
-        const images = document.querySelectorAll('.images-container img');
-        const message = document.getElementById('message');
-        const goToQuizBtn = document.getElementById('goToQuiz');
-
-        let currentPlayer = 1;
-        let selections = [
-            localStorage.getItem('selectedImage1'),
-            localStorage.getItem('selectedImage2')
-        ];
-
-        function updateSelectionDisplay() {
-            images.forEach(img => img.classList.remove('selected1', 'selected2'));
-            if (selections[0]) {
-                const img1 = document.querySelector(`img[data-id="${selections[0]}"]`);
-                if (img1) img1.classList.add('selected1');
-            }
-            if (selections[1]) {
-                const img2 = document.querySelector(`img[data-id="${selections[1]}"]`);
-                if (img2) img2.classList.add('selected2');
-            }
-            // Affiche le bouton si les deux joueurs ont choisi
-            if (selections[0] && selections[1]) {
-                goToQuizBtn.style.display = 'inline-block';
-            } else {
-                goToQuizBtn.style.display = 'none';
-            }
-        }
-
-        images.forEach(img => {
-            img.addEventListener('click', () => {
-                // Empêche de choisir le même personnage pour les deux joueurs
-                if (currentPlayer === 2 && img.dataset.id === selections[0]) {
-                    message.textContent = "Ce personnage est déjà choisi par le joueur 1 !";
-                    return;
-                }
-                selections[currentPlayer - 1] = img.dataset.id;
-                localStorage.setItem(`selectedImage${currentPlayer}`, img.dataset.id);
-                updateSelectionDisplay();
-                message.textContent = `Joueur ${currentPlayer} a choisi !`;
-                // Passe au joueur suivant
-                if (currentPlayer === 1) {
-                    currentPlayer = 2;
-                    message.textContent += " Joueur 2, à vous de choisir.";
-                } else {
-                    message.textContent += " Les deux joueurs ont choisi !";
-                }
-            });
-        });
-
-        // Affiche la sélection précédente si elle existe
-        updateSelectionDisplay();
-        if (selections[0] && selections[1]) {
-            message.textContent = "Les deux joueurs ont déjà choisi !";
-        } else if (selections[0]) {
-            message.textContent = "Joueur 1 a déjà choisi. Joueur 2, à vous de choisir.";
-            currentPlayer = 2;
-        }
-
-        // Redirection vers index.html au clic sur le bouton
-        goToQuizBtn.addEventListener('click', () => {
-            window.location.href = 'index.html';
-        });
-    </script>
-</body>
-</html>
+        

@@ -3,7 +3,7 @@
     "easy": [
       {
         "question": "Comment s'appelle le ninja rouge dans LEGO Ninjago ?",
-        "options": ["Jay", "Kai", "Cole", "Zane"],
+        "options": ["Kai", "Zane", "Jay", "Lloyd"],
         "correctAnswer": "Kai"
       },
       {
@@ -50,9 +50,8 @@
         "question": "Comment s’appelle le robot géant des ninjas dans Ninjago ?",
         "options": ["Ultra Mech", "Titan Bot", "Mecha Dragon", "Mega Walker"],
         "correctAnswer": "Ultra Mech"
-      }
-    ],
-    "normal": [
+      },
+
       {
         "question": "Quel est le vrai nom du ninja vert, Lloyd ?",
         "options": ["Lloyd Garmadon", "Lloyd Montgomery", "Lloyd Smith", "Lloyd Wu"],
@@ -102,9 +101,8 @@
         "question": "Quel ninja est spécialisé dans la terre ?",
         "options": ["Kai", "Jay", "Cole", "Zane"],
         "correctAnswer": "Cole"
-      }
-    ],
-    "hard": [
+      },
+      
       {
         "question": "Quel est le nom complet de Batman dans les films LEGO ?",
         "options": ["Bruce Wayne", "Clark Kent", "Jason Todd", "Terry McGinnis"],
