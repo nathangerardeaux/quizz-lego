@@ -2,11 +2,13 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: Arial, sans-serif;
-    background-image: url('../img/Z4_Museum.jpg');
+    font-family: 'Luckiest Guy', cursive;
+    background-image: url('../img/Museum-tout-sf-nosaunders.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 10px;
 }
 
 body::before {
@@ -21,7 +23,7 @@ body::before {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: gold;
 }
 
 .main-layout {
@@ -35,7 +37,10 @@ h1 {
 .quiz-container {
     padding: 10px 10px;
     border-radius: 12px;
-    background: rgba(255, 255, 255, 0.85);
+    background-image: url('../img/Introendbgfixed.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 500px;
     width: 800px;
 }
@@ -64,10 +69,9 @@ h1 {
 }
 
 .question {
-    font-size: 1.5em;
+    font-size: 1.5em;;
     margin-bottom: 20px;
 }
-
 .answer-option {
     display: block;
     background: #e7e7e7;
@@ -85,7 +89,7 @@ h1 {
 
 .button {
     background-color: #28a745;
-    color: white;
+    color: gold;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
@@ -102,14 +106,9 @@ h1 {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
-    color: #666;
+    color: gold;
 }
 
-body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 10px;
-}
         
 .options-wrapper {
     display: flex;
@@ -125,7 +124,7 @@ body {
     cursor: pointer;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 30px;
 }
 
@@ -141,7 +140,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: gold;
     font-weight: bold;
     font-size: 18px;
     text-shadow: 1px 1px 3px black;
@@ -190,7 +189,7 @@ body {
 
 .images-container {
     display: flex;
-    justify-content: center; /* centre les images horizontalement */
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 40px;
@@ -199,7 +198,7 @@ body {
 .images-container img {
     width: 280px;
     height: 400px;
-    object-fit: cover; /* rempli complètement le cadre en rognant si besoin */
+    object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
@@ -216,4 +215,13 @@ body {
     font-weight: bold;
     text-align: center;
     transition: opacity 0.3s ease;
+}
+
+.player-score {
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 400px;
+    text-align: center;
+    
 }

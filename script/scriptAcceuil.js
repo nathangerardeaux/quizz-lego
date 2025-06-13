@@ -25,6 +25,7 @@ function updateSelectionDisplay() {
     }
 }
 
+// choix des personnages
 images.forEach(img => {
     img.addEventListener('click', () => {
         if (currentPlayer === 2 && img.dataset.id === selections[0]) {
@@ -44,6 +45,7 @@ images.forEach(img => {
     });
 });
 
+// lancement du jeu avec condition
 updateSelectionDisplay();
 if (selections[0] && selections[1]) {
     message.textContent = "Les deux joueurs ont déjà choisi !";
